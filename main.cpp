@@ -95,10 +95,6 @@ int main() {
 
     string caracteresTotales = letras + numeros + caracteresEspeciales;
 
-    // Solicitamos la entrada del nombre de la red
-    // cout << "Ingresa el nombre de la red wifi" << endl;
-    // cin >> nombreRed;
-
     if (!(seleccion >= 1 && seleccion <= static_cast<int>(redesDisponibles.size()))) {
         cout << "Selección no válida." << endl;
         return 1;
