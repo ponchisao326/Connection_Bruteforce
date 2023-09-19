@@ -38,7 +38,7 @@ You can change the name of the file by changing "bruteforce" to something difere
 
 Run the program as follows:
 
-./bruteforce
+```./bruteforce```
 
 The program will prompt you to select a WiFi network from the list of available networks. Then, you can enter the number of passwords you want to try or select 0 to run it infinitely (not recommended).
 
