@@ -1,3 +1,12 @@
+
+
+/* Copyright (C) 2023 Victor Gomez
+ * All Rights Reserved
+ * Unauthorized copying or reproduction of this file, via any medium, is strictly prohibited
+ * Written by Victor Gomez, September 2023
+ */
+
+
 #include <iostream>
 #include <fstream>
 #include <string>
