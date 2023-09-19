@@ -58,6 +58,6 @@ Please make sure to update tests as appropriate.
 ```markdown
 <!-- © 2023 Victor Gomez. All Rights Reserved. -->
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 Unauthorized copying and reproduction of this project, via any medium, is strictly prohibited, unless explicitly permitted by Victor Gomez.
