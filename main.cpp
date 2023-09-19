@@ -6,17 +6,17 @@
  * Written by Victor Gomez, September 2023
  */
 
-/*  _______    ______   __    __   ______   __    __  ______   ______    ______    ______  
-* /       \  /      \ /  \  /  | /      \ /  |  /  |/      | /      \  /      \  /      \ 
+/*  _______    ______   __    __   ______   __    __  ______   ______    ______    ______
+* /       \  /      \ /  \  /  | /      \ /  |  /  |/      | /      \  /      \  /      \
 * $$$$$$$  |/$$$$$$  |$$  \ $$ |/$$$$$$  |$$ |  $$ |$$$$$$/ /$$$$$$  |/$$$$$$  |/$$$$$$  |
 * $$ |__$$ |$$ |  $$ |$$$  \$$ |$$ |  $$/ $$ |__$$ |  $$ |  $$ \__$$/ $$ |__$$ |$$ |  $$ |
 * $$    $$/ $$ |  $$ |$$$$  $$ |$$ |      $$    $$ |  $$ |  $$      \ $$    $$ |$$ |  $$ |
 * $$$$$$$/  $$ |  $$ |$$ $$ $$ |$$ |   __ $$$$$$$$ |  $$ |   $$$$$$  |$$$$$$$$ |$$ |  $$ |
 * $$ |      $$ \__$$ |$$ |$$$$ |$$ \__/  |$$ |  $$ | _$$ |_ /  \__$$ |$$ |  $$ |$$ \__$$ |
-* $$ |      $$    $$/ $$ | $$$ |$$    $$/ $$ |  $$ |/ $$   |$$    $$/ $$ |  $$ |$$    $$/ 
-* $$/        $$$$$$/  $$/   $$/  $$$$$$/  $$/   $$/ $$$$$$/  $$$$$$/  $$/   $$/  $$$$$$/  
-*/                                                                                        
-                                                                                        
+* $$ |      $$    $$/ $$ | $$$ |$$    $$/ $$ |  $$ |/ $$   |$$    $$/ $$ |  $$ |$$    $$/
+* $$/        $$$$$$/  $$/   $$/  $$$$$$/  $$/   $$/ $$$$$$/  $$$$$$/  $$/   $$/  $$$$$$/
+*/
+
 
 
 #include <iostream>
@@ -75,14 +75,15 @@ int main() {
         cout << i + 1 << ". " << redesDisponibles[i] << endl;
     }
 
+    int seleccion;
+    cout << "Seleccione una red WiFi (ingrese el número): ";
+    cin >> seleccion;
+
+
     cout << "Por favor, elija el numero de contraseñas que quiere probar despues de haber completado el diccionario o elija 0 para ejecutarlo infinitamente (No recomendado)" << endl;
     cin >> cantidadPalabras;
 
     string caracteresTotales = letras + numeros + caracteresEspeciales;
-
-    int seleccion;
-    cout << "Seleccione una red WiFi (ingrese el número): ";
-    cin >> seleccion;
 
     // Solicitamos la entrada del nombre de la red
     // cout << "Ingresa el nombre de la red wifi" << endl;
