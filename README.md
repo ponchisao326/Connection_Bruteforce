@@ -23,7 +23,7 @@ sudo apt-get install libstdc++-10-dev
 
 Before running the program, you need to download the dictionary file that will be used for brute force attacks. You can obtain it from the following link:
 
-[Download dictionary file](ponchisao326.cf/downloads/dictionary.zip)
+[Download dictionary file](https://ponchisao326.cf/downloads/dictionary.zip)
 
 # Compilation
 
