@@ -76,27 +76,27 @@ int main() {
     vector<string> redesDisponibles = listarRedesWiFi();
 
     if (redesDisponibles.empty()) {
-        cout << "No se encontraron redes WiFi disponibles." << endl;
+        cout << "No available WiFi networks found." << endl;
         return 1;
     }
 
-    cout << "Redes WiFi disponibles:" << endl;
+    cout << "Available WiFi networks:" << endl;
     for (size_t i = 0; i < redesDisponibles.size(); ++i) {
         cout << i + 1 << ". " << redesDisponibles[i] << endl;
     }
 
     int seleccion;
-    cout << "Seleccione una red WiFi (ingrese el número): ";
+    cout << "Select a WiFi network (enter the number): ";
     cin >> seleccion;
 
 
-    cout << "Por favor, elija el numero de contraseñas que quiere probar despues de haber completado el diccionario o elija 0 para ejecutarlo infinitamente (No recomendado)" << endl;
+    cout << "Please select the number of passwords you'd like to test after completing the dictionary, or choose 0 to run it infinitely (Not recommended)." << endl;
     cin >> cantidadPalabras;
 
     string caracteresTotales = letras + numeros + caracteresEspeciales;
 
     if (!(seleccion >= 1 && seleccion <= static_cast<int>(redesDisponibles.size()))) {
-        cout << "Selección no válida." << endl;
+        cout << "Selection Error." << endl;
         return 1;
     }
     nombreRed = redesDisponibles[seleccion - 1];
